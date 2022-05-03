@@ -83,11 +83,21 @@ const app = new Vue ({
                 this.numberImg = 0;
             }
 
-        }
+        },
 
-     
+        prevImg(){
+            this.numberImg--
+            if(this.numberImg < 0){
+                this.numberImg = this.slides.length -1;
+            }
+        },
+
+        
 
     },
+
+    
+    
 
 
 
