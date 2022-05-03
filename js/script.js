@@ -37,7 +37,7 @@ const app = new Vue ({
                 image: 'img/01.jpg',
                 title: 'Gran Bretagna',
                 text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam inventore eligendi ex ad ullam, cumque provident totam omnis, magnam dolores dolorum corporis.',
-                
+
             },
 
             {
@@ -90,10 +90,15 @@ const app = new Vue ({
                 this.numberImg = this.slides.length -1;
             }
         },
-
+    
+        activeThumb(index){
+            this.numberImg = index;
+        }
         
 
     },
+
+
 
     
     
