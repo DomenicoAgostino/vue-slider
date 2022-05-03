@@ -34,9 +34,8 @@ const app = new Vue ({
     data:{
         slides: [
             {
-
-                img: 'img/01.jpg',
-                title: 'Gran Bretagna'
+                image: 'img/01.jpg',
+                title: 'Gran Bretagna',
                 text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam inventore eligendi ex ad ullam, cumque provident totam omnis, magnam dolores dolorum corporis.',
                 
             },
@@ -104,7 +103,7 @@ const app = new Vue ({
 })
 
 
-console.log(slides);
+
 
 
 
